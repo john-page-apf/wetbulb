@@ -7,10 +7,11 @@ name = "pypi"
 fastapi = "*"
 strawberry-graphql = {extras = ["fastapi"], version = "*"}
 pgeocode="*"
+httptools = "0.6.0"
 requests="*"
 uvicorn = {extras = ["standard"], version = "*"}
 
 [dev-packages]
 
 [requires]
-python_version = "3.10"
+python_version = "3.*"
