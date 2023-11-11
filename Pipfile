@@ -8,6 +8,7 @@ fastapi = "*"
 strawberry-graphql = {extras = ["fastapi"], version = "*"}
 pgeocode="*"
 requests="*"
+uvicorn = {extras = ["standard"], version = "*"}
 
 [dev-packages]
 
